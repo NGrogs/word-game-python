@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)https://www.pythonanywhere.com/user/NGrogs/files/home/NGrogs/web%20app/templates/winner.html -->
+<html class="gr__pythonanywhere_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title> Winner </title>
+		<link rel="stylesheet" href="./Winner_files/{{url_for(&#39;static&#39;," filename="styles/wordgame.css" )}}="">
+		
+	</head>
+	
+	<body data-gr-c-s-loaded="true">
+	
+	<br><br><br>
+	<div class="container" align="center">
+		<div id="Winner">
+			<h1> Winner </h1> <br>
+
+			Congrats {{the_name}}! You're a winner! <br>
+			You came in position {{the_pos}}! <br>
+			
+			<ol>
+                {% for winner in list_of_winners[:10]%}
+                    <li>{{winner}}</li>
+                {% endfor %}
+            </ol>
+			
+			<br>
+			<button class="button" height="150" width="150" onclick="window.location.href = &#39;scoreboard&#39;"> Click here to see the scoreboard. </button>
+			<button class="button" height="150" width="150" onclick="window.location.href = &#39;/&#39;"> Click here to play again. </button> &lt;
+		</div>
+	</div>
+	
+	
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>

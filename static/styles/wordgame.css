@@ -1,0 +1,104 @@
+body {
+	
+	background-image: url("../images/letters.jpg");
+	background-size: cover;
+	margin-top: 0;
+	background-position: center;
+	width: 100%;
+}
+
+#rules {
+	
+	text-align: left ;
+	display: inline-block;
+}
+
+h2 {
+	
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic ;
+	color: red;
+}
+
+#scoreboard {
+	
+	font-size: 25px;
+	
+}
+
+ol {
+	
+	margin: 5%;
+	text-align: left;
+}
+
+ol.li {
+	
+	line-height: 2;
+
+}
+
+ol li:nth-child(odd){
+	
+    background-color: pink;
+	
+}
+
+
+th {
+	
+	border: 3px solid black;
+	font-size: 15px;
+}
+
+td {
+	border: 3px solid black;
+	vertical-align: top;
+	font-size: 15px;
+}
+
+tr {
+	
+	border: 3px solid black;
+	
+}
+
+
+
+input[type=text] {
+	
+    width: 90%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+	font-size: 20px;
+	border: 3px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+.container {
+	
+	margin-top: 4%;
+	background-color: #b8b9ba;
+	border: 6px #f200e5 solid;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: 13%;
+	background-color: white;
+	padding: 15px;
+	max-width: 75%;
+	font-family: Verdana;
+	font-size: 30px;
+}
+
+.button {
+	
+	padding: 15px;
+	font-weight: bold;
+	border: 3px #f200e5 solid;
+	background-color: white;
+}
+

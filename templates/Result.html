@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)https://www.pythonanywhere.com/user/NGrogs/files/home/NGrogs/web%20app/templates/result.html -->
+<html class="gr__pythonanywhere_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title> Result </title>
+		<link rel="stylesheet" href="./Result_files/{{url_for(&#39;static&#39;," filename="styles/wordgame.css" )}}="">
+		
+	</head>
+	
+	<body data-gr-c-s-loaded="true">
+	
+		<br><br><br>
+	<div class="container" align="center">
+		<div id="result">
+			<h1> Result </h1>
+			Your score was {{the_score}} <br><br>
+			
+			
+			<form action="https://www.pythonanywhere.com/winner" method="POST">
+				Please enter your name: <input type="text" name="name" autocomplete="off" autofocus=""> <br><br>
+				<input type="submit" class="button" height="150" width="150" value="See Where You Placed!">
+				
+			</form>
+
+		</div>
+	</div>
+	
+	
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
